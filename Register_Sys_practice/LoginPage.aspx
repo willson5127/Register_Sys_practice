@@ -19,7 +19,7 @@
             <asp:TextBox ID="Tb_Login_Password" runat="server" TextMode="Password"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="Btn_Login" runat="server" Height="40px" Text="確定" Width="200px" OnClick="Btn_Login_Click" />
+            <asp:Button ID="Btn_Login" runat="server" Height="40px" Text="確定" Width="200px" OnClick="Btn_Login_Click" style="margin-top: 0px" />
         </p>
         <p>
             <asp:Button ID="Btn_Register" runat="server" Height="20px" OnClick="Btn_Register_Click" Text="註冊" Width="200px" />

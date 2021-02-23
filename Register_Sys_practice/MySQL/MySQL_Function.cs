@@ -9,7 +9,7 @@ namespace Register_Sys_practice
 {    
     public class MySQL_Function
     {
-        private string connString = "server=127.0.0.1;port=3306;user id=root;password=5!2751@7Qp;charset=utf8;";
+        private string connString = "server=127.0.0.1;port=3306;user id=root;password=1234;charset=utf8;";
         private MySqlConnection conn = new MySqlConnection();
         MySqlCommand cmd = new MySqlCommand();
         /// <summary>
