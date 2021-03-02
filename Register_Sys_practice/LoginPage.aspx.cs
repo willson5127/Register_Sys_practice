@@ -12,17 +12,7 @@ namespace Register_Sys_practice
         MySQL_Function sql = new MySQL_Function();
         protected void Page_Load(object sender, EventArgs e)
         {
-//            CREATE TABLE IF NOT EXISTS `MemberSys`.`Usertable` (
-//                          `User_ID` INT NOT NULL auto_increment,
-//                          `Username` VARCHAR(45) NOT NULL UNIQUE,
-//                          `Password` VARCHAR(45) NOT NULL,
-//                          `Realname` VARCHAR(45) NOT NULL,
-//                          `Birthday` VARCHAR(45) NOT NULL,
-//                          `Email` VARCHAR(45) NOT NULL,
-//                          `Buildday` VARCHAR(45) NOT NULL,
-//                          `Authority` INT NOT NULL,
-//                          PRIMARY KEY(`User_ID`))
-//                          ENGINE = InnoDB;
+
         }
 
         protected void Btn_Login_Click(object sender, EventArgs e)

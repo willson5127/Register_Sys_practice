@@ -31,7 +31,10 @@ namespace Register_Sys_practice
                 Lab_Center_Birthday.Text += detail[0][2];
                 Lab_Center_Email.Text += detail[0][3];
                 Lab_Center_Buildday.Text += detail[0][4];
-            }else
+                btn_Center_Authoritytable.Visible = false;
+                btn_Center_Authoritytable.Enabled = false;
+            }
+            else
             {
                 Lab_Center_Username.Visible = false;
                 Lab_Center_Realname.Visible = false;
@@ -44,7 +47,7 @@ namespace Register_Sys_practice
             if (detail[0][5] == "1")
             {
                 Btn_Center_Edit.Visible = false;
-                Btn_Center_Edit.Enabled = false;
+                Btn_Center_Edit.Enabled = false;                
             }
             switch (detail[0][5])
             {
